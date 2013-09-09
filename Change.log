@@ -1,1 +1,5 @@
 This is a dummy file to help git create empty commit.
+
+DON'T precompile assets at dev branch because the js will be broken in dev environment
+and MUST precompile at master branch when merged from dev branch because if not then the heroku will not work
+so don't merge mater to dev branch. shit!
